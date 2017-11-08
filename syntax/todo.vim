@@ -2,6 +2,8 @@ if !exists('b:todo_checkbox_all')
     finish
 endif
 
+set background=dark
+
 syn match   todo_string _\v"([^\\"]|\\.)*"_
 hi def      todo_string ctermfg=Magenta
 
